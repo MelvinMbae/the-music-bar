@@ -19,14 +19,64 @@
         "release": 2
       }
     ],
-    
-    "appointments": [
+
+    "expertReview": [
       {
-        "doctor": "Chris Muga",
-        "patient": "Melvin Mbae",
-        "date": "2023-08-28",
-        "time": "12:06",
-        "id": 1
+        "id": 1,
+        "album": "Chris Muga",
+        "artist": "Melvin Mbae",
+        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "review": "2023-08-28",
+        "rating": "12:06"
+      },
+      {
+        "id": 2,
+        "album": "Chris Muga",
+        "artist": "Melvin Mbae",
+        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "review": "2023-08-28",
+        "rating": "12:06"
+      },      
+      {
+        "id": 3,
+        "album": "Chris Muga",
+        "artist": "Melvin Mbae",
+        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "review": "2023-08-28",
+        "rating": "12:06"
+      },      
+      {
+        "id": 4,
+        "album": "Chris Muga",
+        "artist": "Melvin Mbae",
+        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "review": "2023-08-28",
+        "rating": "12:06"
       }
-    ]
+    ],
+
+    "comments": [
+        {
+          "id": 1,
+          "user": 1,
+          "comment": "Chris Muga"
+        },
+        {
+        "id": 2,
+            
+            "user": 1,
+            "comment": "Chris Muga"
+          },
+        {
+          "id": 3,
+          "user": 1,
+          "comment": "Chris Muga"
+        },
+           
+        {
+          "id": 4,
+          "user": 1,
+          "comment": "Chris Muga"
+        }
+      ]
   }
