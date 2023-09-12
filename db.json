@@ -2,27 +2,133 @@
     "albums": [
       {
         "id": 1,
+        "name": "The Off-Season",
+        "artist": "J.Cole",
+        "genre": "HipHop",
+        "description": "The Off-Season is the sixth studio album by American rapper J. Cole. It was released on May 14, 2021, by Dreamville Records, Roc Nation and Interscope Records. The album was executive produced by Cole, Ibrahim Hamad, and T-Minus. It also features guest vocals from Morray, 21 Savage, Lil Baby, Bas, and 6lack. It became Cole's first album since 2013's Born Sinner to contain guest features. Production was handled by multiple producers, including Cole himself, T-Minus, Timbaland, Boi-1da, Frank Dukes, DJ Dahi, Tae Beast, and Jake One, among others. The Off-Season was accompanied by a twelve-minute short film upon its release titled, Applying Pressure: The Off-Season Documentary.",
+        "songs": 12,
+        "image": "https://media.pitchfork.com/photos/609c2e93853a96fc7df31dec/1:1/w_2400,h_2400,c_limit/J-Cole-The-Off-Season.jpg",
+        "release": 2021
+      },
+      {
+        "id": 2,
+        "name": "Ndani Ya Cockpit 3",
+        "artist": "Wakadinali",
+        "genre": "HipHop",
+        "description": "Kenyan musical group Wakadinali has a new album called Ndani ya Cockpit 3: All Grown Ups, with a release date of November 30, 2022. Ndani ya Cockpit 3: All Grown Ups is a 16-Track album that features artists such as; Recording Artists: Aress 66, Droopy Kalahari, Elisha Elai, HR The Messenger, Katapilla, Khaligraph Jones, Kitu Sewer, Mc Gijo, Riddiq, $ean Wire, Skillo and Wangechi.",
+        "songs": 16,
+        "image": "https://i0.wp.com/kelxfy.com/wp-content/uploads/2022/12/Wakadinali-Ndani-ya-Cockpit-Album.jpg",
+        "release": 2022
+      },
+      {
+        "id": 3,
+        "name": "30",
+        "artist": "Adele",
+        "genre": "Pop",
+        "description": "30 is the fourth studio album by English singer-songwriter Adele. It was released on 19 November 2021 by Columbia Records, as Adele's first studio album since 25 (2015). 30 is inspired by Adele's divorce, motherhood, fame, and heartache, and expresses themes of acceptance and hope. She wrote the album from 2018 through 2020 with producers such as Greg Kurstin, Max Martin and Shellback, all of whom worked on 25 as well. New collaborators included Ludwig Göransson, and Inflo of English band Sault.",
+        "songs": 12,
+        "image": "https://i.discogs.com/XoDsUvNiPpPNq4kT3xdKpAKamnD4q6M6zm5UsXPy1_U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMDQ3/MTYxLTE2NDUwNjQz/MjYtMTczMy5qcGVn.jpeg",
+        "release": 2021
+      },
+      {
+        "id": 4,
+        "name": "Thriller",
+        "artist": "Michael Jackson",
+        "genre": "Pop",
+        "description": "Thriller is the sixth studio album by the American singer and songwriter Michael Jackson, released on November 29, 1982,[4][5] by Epic Records. It was produced by Quincy Jones, who had previously worked with Jackson on his 1979 album Off the Wall. Jackson wanted to create an album where `every song was a killer`. With the ongoing backlash against disco music at the time, he moved in a new musical direction, resulting in a mix of pop, post-disco, rock, funk, and R&B sounds.",
+        "songs": 9,
+        "image": "https://www.classicpopmag.com/wp-content/uploads/2022/03/712aTlKjhqL._SL1500_.jpg",
+        "release": 1982
+      },
+      {
+        "id": 5,
+        "name": "2014 Forest Hills Drive",
+        "artist": "J.Cole",
+        "genre": "HipHop",
+        "description": "2014 Forest Hills Drive is the third studio album by American rapper J. Cole. It was released on December 9, 2014, by ByStorm Entertainment, Columbia Records, Dreamville Records and Roc Nation. Recording sessions took place over the whole year, while the production on the album was primarily handled by Cole himself, along with several others such as Illmind, Vinylz, Phonix Beats and Willie B. It was announced three weeks before its release and had very little marketing, with no singles or promotion taking place prior to its release.",
+        "songs": 13,
+        "image": "https://de.rarevinyl.com/cdn/shop/products/j-cole-2014-forest-hills-drive-uk-2-lp-vinyl-record-double-88875056981-802965.jpg?v=1689157558",
+        "release": 2014
+      },
+      {
+        "id": 6,
+        "name": "Wanted on Voyage",
+        "artist": "George Ezra",
+        "genre": "Rock",
+        "description": "Wanted on Voyage is the debut studio album by British singer-songwriter George Ezra. It was released on 30 June 2014. It released in the United States on 27 January 2015. It was produced by Cam Blackwood at Voltaire Road Studios, Clapham, London and mixed by Cenzo Townsend at Decoy Studios, Suffolk.",
+        "songs": 16,
+        "image": "https://media.gq-magazine.co.uk/photos/63341f9ff82bd852d8b9fe0b/master/w_1600,c_limit/Best%20pop%20albums%20of%20the%2021st%20century_0001_Bloom%20-%20Troye%20Sivan%20(2018).jpg",
+        "release": 2014
+      },
+      {
+        "id": 7,
+        "name": "Bloom",
+        "artist": "Troye Sivan",
+        "genre": "Pop",
+        "description": "Troye Sivans 2018 sophomore album is the result of watching a pop star grow up in front of our eyes. Off the back of a successful YouTube career, the Aussie singer dropped his debut album Blue Neighbourhood in 2015, wrestling with ideas of heartbreak, isolation and queer longing. 3 years later, in Bloom, a happier and more mature Sivan emerges, showing us the joy that springs when you realise your first love probably will not be your only and best one.",
+        "songs": 10,
+        "image": "https://media.gq-magazine.co.uk/photos/63341f9ff82bd852d8b9fe0b/master/w_1600,c_limit/Best%20pop%20albums%20of%20the%2021st%20century_0001_Bloom%20-%20Troye%20Sivan%20(2018).jpg",
+        "release": 2018
+      },
+      {
+        "id": 8,
+        "name": "Gifted",
+        "artist": "Koffee",
+        "genre": "Reggae",
+        "description": "Gifted is the first full-length album by Jamaican reggae singer Koffee. It was released on 25 March 2022 by Promised Land Recordings. Many of the album's lyrics focus on themes of perseverance and overcoming struggles.[3] Gifted expands beyond the dancehall reggae of Koffee's debut EP Rapture (2019), into roots reggae, pop, and R&B influences.[2][4][5] The album's lyrics include homages to influential reggae musicians and Jamaican culture, and includes a prominent sample from `Redemption Song` by `Bob Marley`.",
+        "songs": 10,
+        "image": "https://media.pitchfork.com/photos/61fc1f6ac968401d75b0b18c/master/w_1280%2Cc_limit/Koffee-Gifted.jpeg",
+        "release": 2022
+      },
+      {
+        "id": 9,
+        "name": "Mr.Morale & The Big Steppers",
+        "artist": "Kendrick Lamar",
+        "genre": "HipHop",
+        "description": "The Off-Season is the sixth studio album by American rapper J. Cole. It was released on May 14, 2021, by Dreamville Records, Roc Nation and Interscope Records. The album was executive produced by Cole, Ibrahim Hamad, and T-Minus. It also features guest vocals from Morray, 21 Savage, Lil Baby, Bas, and 6lack. It became Cole's first album since 2013's Born Sinner to contain guest features. Production was handled by multiple producers, including Cole himself, T-Minus, Timbaland, Boi-1da, Frank Dukes, DJ Dahi, Tae Beast, and Jake One, among others. The Off-Season was accompanied by a twelve-minute short film upon its release titled, Applying Pressure: The Off-Season Documentary.",
+        "songs": 19,
+        "image": "",
+        "release": 2022
+      },
+      {
+        "id": 10,
         "name": "",
         "artist": "",
         "genre": "Oncologist",
+        "description": "The Off-Season is the sixth studio album by American rapper J. Cole. It was released on May 14, 2021, by Dreamville Records, Roc Nation and Interscope Records. The album was executive produced by Cole, Ibrahim Hamad, and T-Minus. It also features guest vocals from Morray, 21 Savage, Lil Baby, Bas, and 6lack. It became Cole's first album since 2013's Born Sinner to contain guest features. Production was handled by multiple producers, including Cole himself, T-Minus, Timbaland, Boi-1da, Frank Dukes, DJ Dahi, Tae Beast, and Jake One, among others. The Off-Season was accompanied by a twelve-minute short film upon its release titled, Applying Pressure: The Off-Season Documentary.",
         "songs": 10,
-        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "image": "",
         "release": 2
       },
       {
-        "id": 1,
+        "id": 11,
         "name": "",
         "artist": "",
         "genre": "Oncologist",
+        "description": "The Off-Season is the sixth studio album by American rapper J. Cole. It was released on May 14, 2021, by Dreamville Records, Roc Nation and Interscope Records. The album was executive produced by Cole, Ibrahim Hamad, and T-Minus. It also features guest vocals from Morray, 21 Savage, Lil Baby, Bas, and 6lack. It became Cole's first album since 2013's Born Sinner to contain guest features. Production was handled by multiple producers, including Cole himself, T-Minus, Timbaland, Boi-1da, Frank Dukes, DJ Dahi, Tae Beast, and Jake One, among others. The Off-Season was accompanied by a twelve-minute short film upon its release titled, Applying Pressure: The Off-Season Documentary.",
         "songs": 10,
-        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "image": "",
+        "release": 2
+      },
+      {
+        "id": 12,
+        "name": "",
+        "artist": "",
+        "genre": "Oncologist",
+        "description": "The Off-Season is the sixth studio album by American rapper J. Cole. It was released on May 14, 2021, by Dreamville Records, Roc Nation and Interscope Records. The album was executive produced by Cole, Ibrahim Hamad, and T-Minus. It also features guest vocals from Morray, 21 Savage, Lil Baby, Bas, and 6lack. It became Cole's first album since 2013's Born Sinner to contain guest features. Production was handled by multiple producers, including Cole himself, T-Minus, Timbaland, Boi-1da, Frank Dukes, DJ Dahi, Tae Beast, and Jake One, among others. The Off-Season was accompanied by a twelve-minute short film upon its release titled, Applying Pressure: The Off-Season Documentary.",
+        "songs": 10,
+        "image": "",
         "release": 2
       }
     ],
 
+
+
+
+
     "expertReview": [
       {
-        "id": 1,
+        "id": 3,
         "album": "Chris Muga",
         "artist": "Melvin Mbae",
         "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
@@ -30,10 +136,10 @@
         "rating": "12:06"
       },
       {
-        "id": 2,
-        "album": "Chris Muga",
-        "artist": "Melvin Mbae",
-        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "id": 4,
+        "album": "2014 Forest Hills Drive",
+        "artist": "J.Cole",
+        "image": "https://images.app.goo.gl/6G6W1Ertvy44sWoR6",
         "review": "2023-08-28",
         "rating": "12:06"
       },      
