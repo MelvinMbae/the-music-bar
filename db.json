@@ -1,0 +1,32 @@
+{
+    "albums": [
+      {
+        "id": 1,
+        "name": "",
+        "artist": "",
+        "genre": "Oncologist",
+        "songs": 10,
+        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "release": 2
+      },
+      {
+        "id": 1,
+        "name": "",
+        "artist": "",
+        "genre": "Oncologist",
+        "songs": 10,
+        "image": "https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png",
+        "release": 2
+      }
+    ],
+    
+    "appointments": [
+      {
+        "doctor": "Chris Muga",
+        "patient": "Melvin Mbae",
+        "date": "2023-08-28",
+        "time": "12:06",
+        "id": 1
+      }
+    ]
+  }
