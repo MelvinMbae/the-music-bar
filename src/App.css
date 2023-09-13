@@ -129,19 +129,25 @@
 .album-cards img {
   width: 200px;
   background-color: white;
+  border: 1px ;
+  border-radius: 16px;
 }
 
-.album-cards h4 {
+.album-cards h4, h3  {
   background-color: white;
   color: maroon;
   padding: 2px;
   border: none;
 }
-
+.album-cards p  {
+  background-color: white;
+  color: maroon;
+  font-size: small;
+  border: none;
+}
 .album-cards img {
-  width: 30vh;
-  height: 30vh;
-
+  width: 32vh;
+  height: 32vh;
 }
 .view-add-btns {
   display: flex;

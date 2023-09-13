@@ -8,6 +8,7 @@ function MusicCard({ album }) {
                 <img src={album.image} />
                 <h3>{album.name}</h3>
                 <h4>{album.artist}</h4>
+                <p>{album.genre}</p>
                 <div className="view-add-btns">
                     <button className="viewAlbumAlbum">
                         View Album
