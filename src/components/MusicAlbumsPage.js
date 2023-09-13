@@ -38,7 +38,7 @@ function MusicAlbumsPage() {
                 <MusicCollection
                     albums={albums}
                     setFavoriteAlbums={setToFavoriteAlbums} />
-                <FavoriteAlbums favoriteAlbums={favoriteAlbums} />
+                <FavoriteAlbums favoriteAlbums={favoriteAlbums} removeFromFavorites={removeFromFavorites} />
 
             </div>
         </div>

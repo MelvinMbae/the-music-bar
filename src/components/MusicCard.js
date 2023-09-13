@@ -5,7 +5,7 @@ function MusicCard({ album, addToFavorite }) {
     return (
         <div className="album-cards">
             <div className="album-image">
-                <img src={album.image} />
+                <img src={album.image} alt="album-cover" />
                 <h3>{album.name}</h3>
                 <h4>{album.artist}</h4>
                 <p>{album.genre}</p>
