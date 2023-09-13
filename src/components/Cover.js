@@ -14,7 +14,6 @@ function Cover() {
         </div>
     )
 
-
 }
 
 export default Cover

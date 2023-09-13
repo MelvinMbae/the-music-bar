@@ -1,10 +1,14 @@
 import React from 'react';
 import Cover from './components/Cover';
+import MusicAlbumsPage from './components/MusicAlbumsPage';
 import './App.css';
 
 function App() {
   return (
-  <Cover />
+    <div>
+      <Cover />
+      <MusicAlbumsPage />
+    </div>
   );
 }
 

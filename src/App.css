@@ -41,3 +41,62 @@
   width: 400px;
   height: 40vh;
 }
+
+.main-content {
+  padding: 20px;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  border: solid 1px lightgrey;
+  border-radius: 20px;
+}
+
+.albums {
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.searchbar {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px darkgrey;
+}
+
+.form1 {
+  background: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.form1 input {
+  flex: 1;
+
+  border-color: azure;
+  outline: none;
+
+  padding-left: 36px;
+
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: 600;
+}
+
+.form1 button {
+  background: darkgrey;
+  color: white;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  width: 90px;
+  font-weight: 600;
+}
