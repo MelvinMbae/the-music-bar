@@ -7,7 +7,6 @@ function MusicCollection({ albums, setFavoriteAlbums }) {
     return (
         <div><h2>Albums</h2>
             <div className="album-collection">
-
                 {albums.map((album) => (
                     <MusicCard
                         key={album.id}

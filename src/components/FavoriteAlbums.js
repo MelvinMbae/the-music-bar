@@ -1,5 +1,5 @@
 import React from "react";
-import MusicCard from "./MusicCard";
+import FavCard from "./FavCard";
 
 function FavoriteAlbums({ favoriteAlbums }) {
     return (
@@ -7,9 +7,10 @@ function FavoriteAlbums({ favoriteAlbums }) {
             <div className="favorite-collection">
 
                 {favoriteAlbums.map((album) => (
-                    <MusicCard
+                    <FavCard
                         key={album.id}
-                        album={album} />
+                        album={album}
+                    />
                 ))}
             </div>
 

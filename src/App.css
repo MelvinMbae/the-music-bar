@@ -24,7 +24,7 @@
 .cover>.title {
   width: 420px;
   position: absolute;
-  left: 30px;
+  left: 20px;
   top: 4%;
   /* background: rgba(0, 0, 0, 0.5); */
   padding: 10px;
@@ -115,9 +115,6 @@
   column-gap: 15px;
   row-gap: 10px;
   justify-content: center;
-}
-
-.album-cards  {
   border: 1px solid lightgray;
   border-radius: 16px;
   background-color: white;
@@ -126,44 +123,95 @@
   padding: 10px;
 }
 
+
+
 .album-cards img {
-  width: 200px;
+  width: 36vh;
+  height: 36vh;
   background-color: white;
-  border: 1px ;
+  border: 1px;
   border-radius: 16px;
 }
 
-.album-cards h4, h3  {
+.album-cards h4,
+h3 {
   background-color: white;
   color: maroon;
   padding: 2px;
   border: none;
 }
-.album-cards p  {
+
+.album-cards p {
   background-color: white;
   color: maroon;
   font-size: small;
   border: none;
 }
-.album-cards img {
-  width: 32vh;
-  height: 32vh;
-}
+
 .view-add-btns {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
 }
+
 .album-cards button {
   font-size: 12px;
-    background-color: darkgrey;
-    width: 160px;
-    border-radius: 5px;
-    padding: 6px;
-    text-transform: uppercase;
-    cursor: pointer;
-    color: white;
-    border: none;
-    margin-top: 10px;
+  background-color: darkgrey;
+  width: 160px;
+  border-radius: 5px;
+  padding: 6px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin-top: 10px;
 }
 
+.favorite-collection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: left;
+}
+
+.fav-album-cards {
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+
+
+}
+
+.fav-album-details {
+  width: 20vh;
+  height: auto;
+  background-color: white;
+  border: 1px;
+  border-radius: 16px;
+}
+.fav-album-details>.fav-image {
+  width: 420px;
+  width: 20vh;
+  height: 20vh;
+}
+
+.remove-fav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.remove-fav-btn {
+  font-size: 12px;
+  background-color: darkgrey;
+  width: 160px;
+  border-radius: 5px;
+  padding: 6px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin-top: 10px;
+
+}
