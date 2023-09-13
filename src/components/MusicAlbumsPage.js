@@ -17,12 +17,18 @@ function MusicAlbumsPage() {
     }
     useEffect(() => fetchAlbumsData(), []);
 
-    function setToFavoriteAlbums(albums) {
-        if (favoriteAlbums.includes(albums)) {
-            alert(`${albums.name} has already been added to your favorites`);
+    function setToFavoriteAlbums(album) {
+        if (favoriteAlbums.includes(album)) {
+            alert(`${album.name} has already been added to your favorites`);
         } else {
-            setFavoriteAlbums((prevAlbums) => [...prevAlbums, albums]);
+            setFavoriteAlbums((prevAlbums) => [...prevAlbums, album]);
         }
+    }
+    function removeFromFavorites(clickedAlbum) {
+        const remAlbums = favoriteAlbums.filter((album) => album.id !== clickedAlbum.id);
+
+        setFavoriteAlbums(remAlbums)
+
     }
 
     return (
