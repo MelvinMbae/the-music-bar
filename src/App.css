@@ -191,21 +191,24 @@ h3 {
   border: 1px;
   border-radius: 16px;
 }
+
 .fav-album-details>.fav-image {
-  width: 420px;
   width: 20vh;
   height: 20vh;
+  border-radius: 10px;
 }
+
 
 .remove-fav {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
 }
+
 .remove-fav-btn {
   font-size: 12px;
   background-color: darkgrey;
-  width: 160px;
+  width: 180px;
   border-radius: 5px;
   padding: 6px;
   text-transform: uppercase;
@@ -213,5 +216,4 @@ h3 {
   color: white;
   border: none;
   margin-top: 10px;
-
 }
