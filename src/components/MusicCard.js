@@ -8,7 +8,7 @@ function MusicCard({ album }) {
                 <img src={album.image} />
                 <h3>{album.name}</h3>
                 <h4>{album.artist}</h4>
-                <div className="view-add btns">
+                <div className="view-add-btns">
                     <button className="viewAlbumAlbum">
                         View Album
                     </button>
@@ -18,7 +18,6 @@ function MusicCard({ album }) {
                 </div>
             </div>
         </div>
-
     )
 }
 export default MusicCard;

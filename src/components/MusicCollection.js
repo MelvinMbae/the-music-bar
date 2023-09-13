@@ -11,8 +11,7 @@ function MusicCollection({ albums }) {
                     <MusicCard
                         key={album.id}
                         album={album} />
-                ))};
-
+                ))}
             </div>
         </div>
     )
