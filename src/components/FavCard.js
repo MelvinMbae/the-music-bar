@@ -1,6 +1,6 @@
 import React from "react";
 
-function FavCard({ album, addToFavorite, remove }) {
+function FavCard({ album, remove }) {
     return (
         <div className="fav-album-cards">
             <div className="fav-album-details">

@@ -32,7 +32,7 @@ function MusicAlbumsPage() {
     }
 
     return (
-        <div className="main-content">
+        // <div className="main-content"></div>
             <div className="albums">
                 <Searchbar />
                 <MusicCollection
@@ -41,7 +41,7 @@ function MusicAlbumsPage() {
                 <FavoriteAlbums favoriteAlbums={favoriteAlbums} removeFromFavorites={removeFromFavorites} />
 
             </div>
-        </div>
+        
     )
 }
 
