@@ -121,7 +121,6 @@
       "release": 2013
     }
   ],
-
   "expertReview": [
     {
       "id": 1,
@@ -129,7 +128,7 @@
       "reviewer": "Stephen Kearse",
       "artist": "Kendrick Lamar",
       "image": "https://media.pitchfork.com/photos/627c1023d3c744a67a846260/master/w_1280%2Cc_limit/Kendrick-Lamar-Mr-Morale-And-The-Big-Steppers.jpg",
-      "review": "Kendrick Lamar is a giddy dramatist. He loves to pack his music with perspectives, personifying his many characters and muses with distinct voices, cadences, and beat switches that bring them to life. Those virtuosic tics have made him one of raps most celebrated storytellers and stylists; he is the first and only rapper to have won a Pulitzer Prize. For some, Kendricks elastic narration and indignant dispatches on Black life have made him a figure of supreme moral authority in hip-hop—a role he spurns on his fifth studio album. Kendrick spends Mr. Morale & The Big Steppers gleefully immolating his cherished reputation, swinging between caustic taunts and plaintive confessions over slick funk and soul production that gleams like shards of a mirror. The double album offers raps most jarring heel turn since Future cut loose on Monster, taking an unfocused but probing look at Kendricks most elusive character: himself",
+      "review": "Kendrick Lamar is a giddy dramatist. He loves to pack his music with perspectives, personifying his many characters and muses with distinct voices, cadences, and beat switches that bring them to life. Those virtuosic tics have made him one of raps most celebrated storytellers and stylists; he is the first and only rapper to have won a Pulitzer Prize. For some, Kendricks elastic narration and indignant dispatches on Black life have made him a figure of supreme moral authority in hip-hop—a role he spurns on his fifth studio album. Kendrick spends Mr. Morale & The Big Steppers gleefully immolating his cherished reputation, swinging between caustic taunts and plaintive confessions over slick funk and soul production that gleams like shards of a mirror. The double album offers raps most jarring heel turn since Future cut loose on Monster, taking an unfocused but probing look at Kendricks most elusive character himself",
       "rating": "https://cdn-icons-png.flaticon.com/128/992/992001.png",
       "user": "Trevour Kitavi",
       "comment": "It is not a rap album; it is the absolute rap album. There is craft here (and in fact this is the most musical mainstream rap record since Aquemini) but just enough room for it."
@@ -146,12 +145,12 @@
       "comment": "On the surface, almost every track on Dream Your Life Away comes across as a slightly different approach to the same nostalgic love ballad, written for someone or something from another lifetime."
     }
   ],
-
   "comments": [
     {
       "id": 1,
       "user": "Mark Mutugi",
       "comment": "Kendrick's album? I'm ready to risk it all."
     }
+  
   ]
 }

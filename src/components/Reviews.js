@@ -1,5 +1,5 @@
 import React from "react";
-import MusicCard from "./MusicCard";
+import ReviewCard from "./ReviewCard";
 // import FavoriteAlbums from "./FavoriteAlbums";
 
 function Reviews({reviews}) {
@@ -8,12 +8,12 @@ function Reviews({reviews}) {
         <div><h2>Reviews</h2>
             {/* Check Mucic collection main div styling*/}
             <div className="list-of-reviews">
-                {/* {reviews.map((review) => (
-                    <MusicCard
-                        key={album.id}
-                        album={album}
-                        addToFavorite={() => setFavoriteAlbums(album)} />
-                ))} */}
+                {reviews.map((review) => (
+                    <ReviewCard
+                        key={review.id}
+                        review={review}
+                        />
+                ))}
             </div>
         </div>
     )

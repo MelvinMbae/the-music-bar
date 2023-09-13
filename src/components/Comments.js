@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-function Comments() {
+function Comments({ comment }) {
     return (
-        <div></div>
+        <div>
+            <p>Mark Mutugi:{comment}</p>
+        </div>
     )
 }
 
