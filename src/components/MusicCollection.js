@@ -1,7 +1,8 @@
 import React from "react";
 import MusicCard from "./MusicCard";
+// import FavoriteAlbums from "./FavoriteAlbums";
 
-function MusicCollection({ albums }) {
+function MusicCollection({ albums, setFavoriteAlbums }) {
     console.log(albums)
     return (
         <div><h2>Albums</h2>
@@ -10,7 +11,8 @@ function MusicCollection({ albums }) {
                 {albums.map((album) => (
                     <MusicCard
                         key={album.id}
-                        album={album} />
+                        album={album}
+                        addToFavorite={() => setFavoriteAlbums(album)} />
                 ))}
             </div>
         </div>

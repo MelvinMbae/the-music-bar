@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function MusicCard({ album }) {
+function MusicCard({ album, addToFavorite }) {
     return (
         <div className="album-cards">
             <div className="album-image">
@@ -13,7 +13,7 @@ function MusicCard({ album }) {
                     <button className="viewAlbumAlbum">
                         View Album
                     </button>
-                    <button className="viewAlbumAlbum">
+                    <button onClick={addToFavorite} className="viewAlbumAlbum">
                         Add to Favorites
                     </button>
                 </div>
