@@ -100,3 +100,59 @@
   width: 90px;
   font-weight: 600;
 }
+
+.album-collection {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.album-cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.album-cards div {
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.album-cards img {
+  width: 200px;
+  background-color: white;
+}
+
+.album-cards h4 {
+  background-color: white;
+  color: maroon;
+  padding: 2px;
+  border: none;
+}
+
+.album-cards img {
+  width: 30vh;
+  height: 30vh;
+
+}
+.album-cards button {
+  font-size: 12px;
+    background-color: darkgrey;
+    width: 160px;
+    border-radius: 5px;
+    padding: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
