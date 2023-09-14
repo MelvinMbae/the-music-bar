@@ -265,6 +265,7 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  width: 60vw;
 }
 
 .review-image-1 {
@@ -347,6 +348,7 @@ p {
 .comment-input {
   padding-top: 20px;
   border-top: solid 0.5px maroon;
+  justify-content: space-between;
 }
 
 .comment-input input {
@@ -356,6 +358,7 @@ p {
   outline: none;
   height: 30px;
   border-radius: 5px;
+  flex: 1;
   transition: all 1s;
 }
 
