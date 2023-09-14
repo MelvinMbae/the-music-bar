@@ -1,9 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
 import Cover from './components/Cover';
 import MusicAlbumsPage from './components/MusicAlbumsPage';
 import ExpertReviewPage from './components/ExpertReviewPage';
 
 import './App.css';
+import Navigation from './components/Navigation';
 
 const albumURL = "http://localhost:3000/albums";
 
@@ -41,12 +49,24 @@ function App() {
     setCommentsDictionary(commentsDict);
   }, [albums])
 
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <MusicAlbumsPage albums={albums} favoriteAlbums={favoriteAlbums} setFavoriteAlbums={setFavoriteAlbums} />,
+    },
+    {
+      path: "review",
+      element: <ExpertReviewPage albumsDictionary={albumsDictionary} commentsDictionary={commentsDictionary} setCommentsDictionary={setCommentsDictionary} />,
+    },
+  ]);
+
   return (
-    <div>
+    <>
+      <Navigation />
       <Cover />
-      <MusicAlbumsPage albums={albums} favoriteAlbums={favoriteAlbums} setFavoriteAlbums={setFavoriteAlbums} />
-      <ExpertReviewPage albumsDictionary={albumsDictionary} commentsDictionary={commentsDictionary} setCommentsDictionary={setCommentsDictionary} />
-    </div>
+      <RouterProvider router={router} />
+    </>
+
   );
 }
 
