@@ -3,7 +3,6 @@ import MusicCard from "./MusicCard";
 // import FavoriteAlbums from "./FavoriteAlbums";
 
 function MusicCollection({ albums, setFavoriteAlbums }) {
-    console.log(albums)
     return (
         <div><h2>Albums</h2>
             <div className="album-collection">

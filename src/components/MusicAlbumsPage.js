@@ -1,21 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Searchbar from "./SearchBar";
 import MusicCollection from "./MusicCollection";
 import FavoriteAlbums from "./FavoriteAlbums";
 
-const albumURL = "http://localhost:3000/albums";
-
-function MusicAlbumsPage() {
-
-    const [albums, setAlbums] = useState([])
-    const [favoriteAlbums, setFavoriteAlbums] = useState([]);
-
-    function fetchAlbumsData() {
-        fetch(albumURL)
-            .then((response) => response.json())
-            .then((data) => setAlbums(data));
-    }
-    useEffect(() => fetchAlbumsData(), []);
+function MusicAlbumsPage(props) {
+    const { favoriteAlbums, setFavoriteAlbums, albums } = props;
 
     function setToFavoriteAlbums(album) {
         if (favoriteAlbums.includes(album)) {
@@ -26,23 +15,18 @@ function MusicAlbumsPage() {
     }
     function removeFromFavorites(clickedAlbum) {
         const remAlbums = favoriteAlbums.filter((album) => album.id !== clickedAlbum.id);
-
         setFavoriteAlbums(remAlbums)
-
     }
 
     return (
-        // <div className="main-content"></div>
-            <div className="albums">
-                <Searchbar />
-                <MusicCollection
-                    albums={albums}
-                    setFavoriteAlbums={setToFavoriteAlbums} />
-                <FavoriteAlbums favoriteAlbums={favoriteAlbums} removeFromFavorites={removeFromFavorites} />
-
-            </div>
-        
-    )
+        <div className="albums">
+            <Searchbar />
+            <MusicCollection
+                albums={albums}
+                setFavoriteAlbums={setToFavoriteAlbums} />
+            <FavoriteAlbums favoriteAlbums={favoriteAlbums} removeFromFavorites={removeFromFavorites} />
+        </div>
+    );
 }
 
 export default MusicAlbumsPage;

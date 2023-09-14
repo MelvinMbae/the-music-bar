@@ -1,9 +1,8 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 
-const commentURL = "http://localhost:3000/comments"
+const commentURL = "http://localhost:3000/comments";
 
 function CommentField() {
-
     const [newComment, setNewComment] = useState("")
 
     function handleSubmit(e) {
@@ -19,15 +18,10 @@ function CommentField() {
     }
     return (
         <div className="comment-field">
-            <form >
-                Mark Mutugi:<input value={newComment} onChange={(e) => setNewComment(e.target.value)} type="text" placeholder="Add a comment..." />
-                <button onClick={handleSubmit} className="comment-btn">Submit</button>
-                <button className="comment-btn">Delete</button>
-                <button className="comment-btn">Edit</button>
-
-            </form>
-
-
+            Mark Mutugi:<input value={newComment} onChange={(e) => setNewComment(e.target.value)} type="text" placeholder="Add a comment..." />
+            <button onClick={handleSubmit} className="comment-btn">Submit</button>
+            <button className="comment-btn">Delete</button>
+            <button className="comment-btn">Edit</button>
         </div>
     )
 }

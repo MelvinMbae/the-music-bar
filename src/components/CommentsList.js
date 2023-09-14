@@ -2,11 +2,12 @@ import React from "react";
 import CommentCard from "./CommentCard";
 // import FavoriteAlbums from "./FavoriteAlbums";
 
-function Comment({ comments }) {
+export default function CommentsList({ comments }) {
     console.log(comments)
     return (
-        <div><h2>Comments</h2>
-            {/* Check Mucic collection main div styling*/}
+        <div>
+            <h2>Comments</h2>
+            {/* Check Music collection main div styling*/}
             <div className="list-of-comments">
                 {comments.map((comment) => (
                     <CommentCard
@@ -17,6 +18,4 @@ function Comment({ comments }) {
             </div>
         </div>
     )
-}
-
-export default Comment;
+};
