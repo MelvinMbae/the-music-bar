@@ -39,6 +39,46 @@ function CommentsList(props) {
                 setNewComment("");
             });
     }
+
+    function handleDelete(id) {
+        fetch(`${commentURL}/${id}`, {
+            method: "DELETE",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                id,
+            }),
+        })
+            .then((res) => res.json())
+            .then((comment) => {
+                setCommentsDictionary({
+                    ...commentsDictionary,
+                    ...{ [album.id]: [...albumComments, comment] },
+                });
+                fetchCommentData();
+                setNewComment("");
+            });
+    }
+
+    function handleEdit(id, comment) {
+        fetch(`${commentURL}/${id}`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                id,
+                comment
+            }),
+        })
+            .then((res) => res.json())
+            .then((comment) => {
+                setCommentsDictionary({
+                    ...commentsDictionary,
+                    ...{ [album.id]: [...albumComments, comment] },
+                });
+                fetchCommentData();
+                setNewComment("");
+            });
+    }
+
     return (
         <div className="comments-section">
             <div className="comments-list">
@@ -46,12 +86,12 @@ function CommentsList(props) {
                     <div className="comment-field">
                         <div> <b>{comment.user}</b>:{comment.comment}</div>
                         <div className="comment-field-btns">
-                            <button className="comment-btn"><span class="material-symbols-outlined">
+                            <button className="comment-btn" onClick={_ => handleDelete(comment.id)}><span class="material-symbols-outlined">
                                 delete
                             </span>
                                 Delete
                             </button>
-                            <button className="comment-btn">
+                            <button className="comment-btn" onClick={_ => handleEdit(comment.id, "Kiasssiiiiiiiii")}>
                                 <span class="material-symbols-outlined">
                                     edit
                                 </span>
