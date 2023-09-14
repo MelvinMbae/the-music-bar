@@ -281,7 +281,7 @@ p {
 
 .comments-list {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   padding: 10px;
 }

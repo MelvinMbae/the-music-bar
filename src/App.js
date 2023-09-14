@@ -28,10 +28,18 @@ function App() {
 
         setAlbums(data);
         setAlbumsDictionary(dictionary);
-        setCommentsDictionary(commentsDict);
+
       });
   }
   useEffect(() => fetchAlbumsData(), []);
+
+  useEffect(() => {
+    const commentsDict = {}
+    albums.forEach(album => {
+      commentsDict[album.id] = [];
+    });
+    setCommentsDictionary(commentsDict);
+  }, [albums])
 
   return (
     <div>
