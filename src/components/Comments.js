@@ -4,28 +4,30 @@ import CommentsList from "./CommentsList";
 const commentURL = "http://localhost:3000/comments";
 
 function Comments({ album, commentsDictionary, setCommentsDictionary }) {
-    const [apiComments, setApiComments] = useState([]);
+  const [apiComments, setApiComments] = useState([]);
 
-    function fetchCommentData() {
-        fetch(commentURL)
-            .then((response) => response.json())
-            .then((data) => setApiComments(data));
-    }
+  function fetchCommentData() {
+    fetch(commentURL)
+      .then((response) => response.json())
+      .then((data) => setApiComments(data));
+  }
 
-    useEffect(() => fetchCommentData(), []);
+  useEffect(() => fetchCommentData(), []);
 
-    return (
-        <div>
-            <h3><u>Comments</u></h3>
-            <CommentsList
-                apiComments={apiComments}
-                album={album}
-                commentsDictionary={commentsDictionary}
-                setCommentsDictionary={setCommentsDictionary}
-                fetchCommentData={fetchCommentData}
-            />
-        </div>
-    );
+  return (
+    <div>
+      <h3>
+        <u>Comments</u>
+      </h3>
+      <CommentsList
+        apiComments={apiComments}
+        album={album}
+        commentsDictionary={commentsDictionary}
+        setCommentsDictionary={setCommentsDictionary}
+        fetchCommentData={fetchCommentData}
+      />
+    </div>
+  );
 }
 
 export default Comments;
