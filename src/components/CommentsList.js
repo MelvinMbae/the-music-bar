@@ -44,14 +44,24 @@ function CommentsList(props) {
             <div className="comments-list">
                 {albumComments.map((comment) => (
                     <div className="comment-field">
-                        {comment.user}:<div>{comment.comment}</div>
-                        <button className="comment-btn">Delete</button>
-                        <button className="comment-btn">Edit</button>
+                        <div> <b>{comment.user}</b>:{comment.comment}</div>
+                        <div className="comment-field-btns">
+                            <button className="comment-btn"><span class="material-symbols-outlined">
+                                delete
+                            </span>
+                                Delete
+                            </button>
+                            <button className="comment-btn">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                                Edit
+                            </button>
+                        </div>
                     </div>
                 ))}
             </div>
             <div className="comment-input">
-                Add Comment:{" "}
                 <input
                     value={newComment}
                     onChange={(e) => setNewComment(e.target.value)}

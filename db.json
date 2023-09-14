@@ -125,9 +125,9 @@
     {
       "id": 1,
       "albumID": 9,
-      "user": "Trevour Kitavi",
-      "rating": "https://cdn-icons-png.flaticon.com/128/992/992001.png",
-      "comment": "It is not a rap album; it is the absolute rap album. There is craft here (and in fact this is the most musical mainstream rap record since Aquemini) but just enough room for it."
+      "reviewer": "Trevour Kitavi",
+      "rating": 5,
+      "review": "It is not a rap album; it is the absolute rap album. There is craft here (and in fact this is the most musical mainstream rap record since Aquemini) but just enough room for it."
     }
   ],
   "comments": [
@@ -140,200 +140,20 @@
     {
       "user": "Mark Mutugi",
       "comment": "Yoooo!",
-      "albumID": 1,
+      "albumID": 9,
       "id": 2
     },
     {
       "user": "Mark Mutugi",
-      "comment": "",
+      "comment": "Cool Album",
       "albumID": 9,
       "id": 3
     },
     {
       "user": "Mark Mutugi",
-      "comment": "Muga",
+      "comment": "Wolan",
       "albumID": 9,
       "id": 4
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "muga again",
-      "albumID": 9,
-      "id": 5
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Hello World?",
-      "albumID": 9,
-      "id": 6
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Another One",
-      "albumID": 9,
-      "id": 7
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "muga",
-      "albumID": 9,
-      "id": 8
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Yo",
-      "albumID": 9,
-      "id": 9
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello",
-      "albumID": 9,
-      "id": 10
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello",
-      "albumID": 9,
-      "id": 11
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello",
-      "albumID": 9,
-      "id": 12
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 13
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 14
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 15
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 16
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 17
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 18
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yello0",
-      "albumID": 9,
-      "id": 19
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Hallo",
-      "albumID": 9,
-      "id": 20
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "hallo",
-      "albumID": 9,
-      "id": 21
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "this is muga",
-      "albumID": 9,
-      "id": 22
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "hello",
-      "albumID": 9,
-      "id": 23
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "hello muga",
-      "albumID": 9,
-      "id": 24
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "muga",
-      "albumID": 9,
-      "id": 25
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "chris",
-      "albumID": 9,
-      "id": 26
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "muga",
-      "albumID": 9,
-      "id": 27
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Yooo",
-      "albumID": 9,
-      "id": 28
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "muga 2",
-      "albumID": 9,
-      "id": 29
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Muga w333",
-      "albumID": 9,
-      "id": 30
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Yeah!",
-      "albumID": 9,
-      "id": 31
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Naenda Bichi",
-      "albumID": 9,
-      "id": 32
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Yo pierre",
-      "albumID": 9,
-      "id": 33
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Do you really?",
-      "albumID": 9,
-      "id": 34
     }
   ]
 }

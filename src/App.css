@@ -262,6 +262,13 @@ h3 {
   border-radius: 16px;
 }
 
+.review-details {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
 .review-details h3,
 h4,
 p {
@@ -271,10 +278,27 @@ p {
   border: none;
 }
 
+.review-data {
+  display: flex;
+  column-gap: 20px;
+}
+
+.review-metadata {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.rating-stars {
+  display: flex;
+  color: maroon;
+}
+
 .comment-input {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
+  margin-top: 20px;
 }
 
 .comments-section {}
@@ -283,20 +307,26 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  row-gap: 10px;
 }
 
 .comment-field {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
-  padding: 10px;
   align-items: center;
+  justify-content: space-between;
+}
+
+.comment-field-btns {
+  width: 200px;
+  display: flex;
+  column-gap: 10px;
 }
 
 .comment-input {
-  padding-left: 20px;
-
+  padding-top: 20px;
+  border-top: solid 0.5px maroon;
 }
 
 .comment-input input {
@@ -313,10 +343,13 @@ p {
   background: lightgrey;
   border-radius: 8px;
   cursor: pointer;
-  padding: 10px;
-  color: white;
-  width: 100px;
+  padding: 7px;
+  color: maroon;
+  /* width: 100px; */
   display: flex;
   justify-content: center;
+  align-items: center;
   transition: all 1s;
+  border: thin solid maroon;
+  column-gap: 2px;
 }

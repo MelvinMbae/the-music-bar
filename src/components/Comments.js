@@ -15,13 +15,16 @@ function Comments({ album, commentsDictionary, setCommentsDictionary }) {
     useEffect(() => fetchCommentData(), []);
 
     return (
-        <CommentsList
-            apiComments={apiComments}
-            album={album}
-            commentsDictionary={commentsDictionary}
-            setCommentsDictionary={setCommentsDictionary}
-            fetchCommentData={fetchCommentData}
-        />
+        <div>
+            <h3><u>Comments</u></h3>
+            <CommentsList
+                apiComments={apiComments}
+                album={album}
+                commentsDictionary={commentsDictionary}
+                setCommentsDictionary={setCommentsDictionary}
+                fetchCommentData={fetchCommentData}
+            />
+        </div>
     );
 }
 
