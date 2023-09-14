@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 const commentURL = "http://localhost:3000/comments";
 
-function CommentField() {
+function CommentField(props) {
+    const { album } = props;
     const [newComment, setNewComment] = useState("")
 
     function handleSubmit(e) {
@@ -11,7 +12,8 @@ function CommentField() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
                 user: "Mark Mutugi",
-                comment: newComment
+                comment: newComment,
+                albumID: album.id
             })
         })
         alert("Comment Successful")

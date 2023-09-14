@@ -139,21 +139,9 @@
     },
     {
       "user": "Mark Mutugi",
-      "comment": "",
-      "id": 2,
-      "ablumID": 9
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "yo",
-      "id": 3,
-      "ablumID": 9
-    },
-    {
-      "user": "Mark Mutugi",
-      "comment": "Yooo",
-      "id": 4,
-      "ablumID": 9
+      "comment": "Yoooo!",
+      "albumID": 1,
+      "id": 2
     }
   ]
 }

@@ -1,8 +1,5 @@
 import React from "react";
 import CommentField from "./CommentField";
-// import Comments from "./Comments";
-import CommentCard from "./CommentCard";
-
 
 function ReviewCard({ review, album }) {
     return (
@@ -14,7 +11,7 @@ function ReviewCard({ review, album }) {
                 <p>{review.review}</p>
                 <img className="review-image-2" src={review.rating} alt="star-rating" />
                 <p>{review.user}: {review.comment}</p>
-                <CommentField />
+                <CommentField album={album} />
             </div>
         </div>
     )

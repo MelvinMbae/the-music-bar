@@ -23,7 +23,6 @@ function ExpertReviewPage(props) {
     }
     useEffect(() => fetchReviewData(), []);
     return (
-        // <div className="main-content"></div>
         <div className="reviews">
             <Reviews reviews={reviews} albumsDictionary={albumsDictionary} />
         </div>

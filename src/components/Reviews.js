@@ -11,7 +11,7 @@ function Reviews({ reviews, albumsDictionary }) {
                     <ReviewCard
                         key={review.id}
                         review={review}
-                        album={albumsDictionary[review.id]}
+                        album={albumsDictionary[review.albumID]}
                     />
                 ))}
             </div>
