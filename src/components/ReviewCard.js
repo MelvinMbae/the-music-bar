@@ -1,7 +1,7 @@
 import React from "react";
 import CommentField from "./CommentField";
 
-function ReviewCard({ review, album }) {
+function ReviewCard({ review, album = {}, commentsDictionary, setCommentsDictionary }) {
     return (
         <div className="review-cards">
             <div className="review-details">
@@ -11,7 +11,7 @@ function ReviewCard({ review, album }) {
                 <p>{review.review}</p>
                 <img className="review-image-2" src={review.rating} alt="star-rating" />
                 <p>{review.user}: {review.comment}</p>
-                <CommentField album={album} />
+                <CommentField album={album} commentsDictionary={commentsDictionary} setCommentsDictionary={setCommentsDictionary} />
             </div>
         </div>
     )

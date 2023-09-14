@@ -271,13 +271,21 @@ p {
   border: none;
 }
 
-.comment-field{
+.comment-input {
   display: flex;
-  flex-direction: column;
-  row-gap: 10px;
+  flex-direction: row;
+  column-gap: 10px;
 }
 
-.comment-field input{
+.comment-field {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.comment-input input {
   width: 30vw;
   padding: 8px;
   border: solid 1px lightgray;
@@ -287,7 +295,7 @@ p {
   transition: all 1s;
 }
 
-.comment-btn{
+.comment-btn {
   background: lightgrey;
   border-radius: 8px;
   cursor: pointer;

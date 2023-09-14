@@ -2,7 +2,7 @@ import React from "react";
 import ReviewCard from "./ReviewCard";
 // import FavoriteAlbums from "./FavoriteAlbums";
 
-function Reviews({ reviews, albumsDictionary }) {
+function Reviews({ reviews, albumsDictionary, commentsDictionary, setCommentsDictionary }) {
     return (
         <div><h2>Reviews</h2>
             {/* Check Mucic collection main div styling*/}
@@ -12,6 +12,8 @@ function Reviews({ reviews, albumsDictionary }) {
                         key={review.id}
                         review={review}
                         album={albumsDictionary[review.albumID]}
+                        commentsDictionary={commentsDictionary}
+                        setCommentsDictionary={setCommentsDictionary}
                     />
                 ))}
             </div>

@@ -4,7 +4,7 @@ import Reviews from "./Reviews";
 const reviewURL = "http://localhost:3000/expertReview";
 
 function ExpertReviewPage(props) {
-    const { albumsDictionary } = props;
+    const { albumsDictionary, commentsDictionary, setCommentsDictionary } = props;
 
     const [reviews, setReviews] = useState([])
 
@@ -14,9 +14,7 @@ function ExpertReviewPage(props) {
             .then((data) => {
                 const parsedReviews = [];
                 data.forEach(review => {
-
-                    const newReview = { ...review, ...albumsDictionary[review.albumID] }
-                    console.log({ newReview, albumsDictionary })
+                    // const newCommentsForAlbum = [...commentsDictionary[review.albumID], review]
                 });
                 setReviews(data)
             });
@@ -24,7 +22,7 @@ function ExpertReviewPage(props) {
     useEffect(() => fetchReviewData(), []);
     return (
         <div className="reviews">
-            <Reviews reviews={reviews} albumsDictionary={albumsDictionary} />
+            <Reviews reviews={reviews} albumsDictionary={albumsDictionary} commentsDictionary={commentsDictionary} setCommentsDictionary={setCommentsDictionary} />
         </div>
 
     )
