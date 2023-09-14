@@ -65,8 +65,15 @@ function CommentsList(props) {
                 <input
                     value={newComment}
                     onChange={(e) => setNewComment(e.target.value)}
+                    onKeyDown={(e) => {
+                        setNewComment(e.target.value);
+                        if (e.key === "Enter") {
+                            handleSubmit();
+                        }
+                    }}
                     type="text"
                     placeholder="Add a comment..."
+                    id="comment"
                 />
                 <button onClick={handleSubmit} className="comment-btn">
                     Submit
