@@ -86,9 +86,8 @@ function CommentsList(props) {
     <div className="comments-section">
       <div className="comments-list">
         {albumComments.map((comment) => (
-          <div className="comment-field">
+          <div className="comment-field" key={comment.id}>
             <div>
-              {" "}
               <b>{comment.user}</b>:{comment.comment}
             </div>
             <div className="comment-field-btns">
@@ -96,14 +95,14 @@ function CommentsList(props) {
                 className="comment-btn"
                 onClick={(_) => handleDelete(comment.id)}
               >
-                <span class="material-symbols-outlined">delete</span>
+                <span className="material-symbols-outlined">delete</span>
                 Delete
               </button>
               <button
                 className="comment-btn"
                 onClick={(_) => handleEdit(comment.id, "Kiasssiiiiiiiii")}
               >
-                <span class="material-symbols-outlined">edit</span>
+                <span className="material-symbols-outlined">edit</span>
                 Edit
               </button>
             </div>
