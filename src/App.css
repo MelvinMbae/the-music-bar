@@ -52,8 +52,10 @@
 }
 
 .albums {
+  display: flex;
   flex-direction: column;
   row-gap: 30px;
+  align-items: center;
 }
 
 .searchbar {
@@ -152,6 +154,24 @@ h3 {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+}
+
+.music-collection,
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+}
+
+.reviews {
+  width: 100%;
+}
+
+.reviews-component {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .album-cards button {

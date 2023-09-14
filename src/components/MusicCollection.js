@@ -4,7 +4,7 @@ import MusicCard from "./MusicCard";
 
 function MusicCollection({ albums, setFavoriteAlbums }) {
   return (
-    <div>
+    <div className="music-collection">
       <h2>Albums</h2>
       <div className="album-collection">
         {albums.map((album) => (

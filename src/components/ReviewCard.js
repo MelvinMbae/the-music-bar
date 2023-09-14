@@ -15,8 +15,6 @@ function ratingStars(num) {
     return stars;
 }
 
-console.log(ratingStars(5))
-
 function ReviewCard({
     review,
     album = {},
