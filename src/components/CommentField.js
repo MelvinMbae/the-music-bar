@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Comments from "./Comments";
+import React, { useState} from "react";
 
 const commentURL = "http://localhost:3000/comments"
 
@@ -22,7 +21,10 @@ function CommentField() {
         <div className="comment-field">
             <form >
                 Mark Mutugi:<input value={newComment} onChange={(e) => setNewComment(e.target.value)} type="text" placeholder="Add a comment..." />
-                <div onClick={handleSubmit} className="comment-btn">Submit</div>
+                <button onClick={handleSubmit} className="comment-btn">Submit</button>
+                <button className="comment-btn">Delete</button>
+                <button className="comment-btn">Edit</button>
+
             </form>
 
 

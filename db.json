@@ -149,8 +149,12 @@
     {
       "id": 1,
       "user": "Mark Mutugi",
-      "comment": "Kendrick's album? I'm ready to risk it all."
+      "comment": "Kendrick's album? Totally insane."
+    },
+    {
+      "user": "Mark Mutugi",
+      "comment": "",
+      "id": 2
     }
-  
   ]
 }
