@@ -14,11 +14,17 @@
   background-size: cover;
 }
 
+footer {
+  background-color: #fff9ff;
+  text-align: center;
+  padding: 10px;
+}
+
 .cover>.title {
   width: 420px;
   position: absolute;
   left: 20px;
-  top: 4%;
+  top: 8%;
   /* background: rgba(0, 0, 0, 0.5); */
   padding: 10px;
   border-radius: 8px;
@@ -116,13 +122,14 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+  width: 49vh
 }
 
 
 
 .album-cards img {
-  width: 36vh;
-  height: 36vh;
+  width: 46vh;
+  height: 46vh;
   background-color: white;
   border: 1px;
   border-radius: 16px;
@@ -154,7 +161,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60vw;
+  width: 80vw;
 }
 
 .reviews {
@@ -311,7 +318,7 @@ p {
 
 
 
-.comments-section {}
+/* .comments-section {} */
 
 .comments-list {
   display: flex;

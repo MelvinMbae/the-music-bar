@@ -12,6 +12,7 @@ import ExpertReviewPage from './components/ExpertReviewPage';
 
 import './App.css';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 const albumURL = "http://localhost:3000/albums";
 
@@ -65,6 +66,7 @@ function App() {
       <Navigation />
       <Cover />
       <RouterProvider router={router} />
+      <Footer />
     </>
 
   );

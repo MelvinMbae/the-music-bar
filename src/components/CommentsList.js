@@ -101,7 +101,7 @@ function CommentsList(props) {
               <button
                 className="comment-btn"
                 onClick={(_) =>
-                  handleEdit(comment.id, "Kendrick's album? Totally insane.")
+                  handleEdit(comment.id, "My favorite track in the album is by far Count me Out.")
                 }
               >
                 <span className="material-symbols-outlined">edit</span>
