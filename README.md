@@ -2,69 +2,66 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Project Name
 
-In the project directory, you can run:
+The-Music-Bar
 
-### `npm start`
+# Project author
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The-Music-Bar-Development-Team
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Authors are:
+1. Melvin Mbae
+2. Mark Mutugi
+3. Salim Omar
+4. Aman Githinji
+5. Samuel Thong'o
 
-### `npm test`
+# Project Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Our Project is a Single Page Application with two client side routes. which allows user to navigate through different pages.
 
-### `npm run build`
+Our Application aims at creating a community where music lovers can get all latest music updates i.e. released albums, upcoming albums from their favorite artists. The application also allows users to get input from fellow music lovers and their take regarding particular songs or albums.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users will be able to like their favorite albums and view expert reviews on various albums and make comments on them.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Project setup instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Navigate into your working directory.
+2. Git clone the repository from GitHub link submitted.
+3. Run command `$ json-server --watch db.json` to fire up the backend.
+4. Test your server by visiting this route in the browser:
 
-### `npm run eject`
+### Resources:
+[http://localhost:3000/albums]
+[http://localhost:3000/expertReview]
+[http://localhost:3000/comments]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[http://localhost:3000]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Run `npm start` to load the project.
+6. Navigate through the application using the functionalities designed in the MVP.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Application Features
 
-## Learn More
+# Albums
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is the Home Page of the application has a search button where the user can search for their favorite albums based on the artist name, genre or album name (Still in Development)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+One can also view all albums accessible in the application and like their favorite albums via the `Add to Favorites Button`. They will then be displayed under the favorite albums section.
 
-### Code Splitting
+# Reviews
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is the Review Page of the application where the user can view Expert Reviews on their favorite albums and interact with other users.
 
-### Analyzing the Bundle Size
+The user can Add a comment or edit their comment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The Edit feature is still in development.
 
-### Making a Progressive Web App
+# LinkUrl to GitHub Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[https://github.com/MelvinMbae/the-music-bar]
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
